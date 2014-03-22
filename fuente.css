@@ -2,7 +2,7 @@
 /* CSS Document */
 @font-face {
 	font-family: 'firefoxos';
-	src: url('FiraSansOT-Regular.otf') format("opentype");
+	src: url('FiraSansOTRegular.otf') format("opentype");
 }
  html, body {
 	font-size: 10px;
