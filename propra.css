@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+section[role="region"] header #reveno{
+	background-image:url(back@1.5x.png);
+	background-color:#03C;
+	height:5rem;
+	width:4rem;
+	margin:0px;
+	}
+
+.centrado {
+padding-top:25px;
+padding-bottom:50px;
+margin:-1px auto;
+width:auto;
+overflow:hidden;
+text-align:center;
+}
+
+.menuback{
+text-align:center;
+padding:0px;
+margin:0px;
+width:100%;
+height:3rem;
+margin-top:0px;
+background-color:#000080;
+position:relative;
+display:table;
+}
+.ibtn{
+	text-align:center;
+	position:relative;
+	float:left;
+	width:64px;
+	height:2rem;
+	color:#FFF;
+	margin-bottom:0px;
+}
+#lego{
+	text-align:center;
+}
+
+.title{
+	display:table;
+	position:relative;
+	float:left;
+}
+#botones{
+	display:block;
+}
+
+.opcion {
+	width:140px;
+	height:140px;
+	border:solid;
+	border-color:#000080;
+	float:left;
+	margin-left:6px;
+	margin-bottom:6px;
+	vertical-align:bottom;
+	background-color:#000080;
+	
+}
+.square{
+	display:inline-block;
+	font-size:1rem;
+	margin:auto;
+	width:100%;
+	padding-top:50px;
+	
+}
+.square li{
+	display:inline-block;
+	display: -moz-inline-stack;
+	margin: 0 auto 0 auto;
+	width:320px;
+	
+}
+.square ul{
+	text-align:center;
+}
+.square input{
+	width:30px;
+}
+.num{
+	font-size:2.5rem;
+	padding-top:60px;
+	padding-bottom:50px;
+	margin:-1px auto;
+	width:auto;
+	overflow:hidden;
+	text-align:center;
+	color:#FFF;
+}
+.coef7{
+	font-size:1.5rem;
+}
+
+#pie{
+border-color:#0000DF;
+color:#FFF;
+background-color:#00C;
+font-size:3rem;
+text-align:center;
+width: 100%; 
+bottom: 0px;
+height:4rem;
+}
+
+.resolbottom{
+color:#FFF;
+background-color:#00C;
+border-style:none;
+font-size:2rem;
+text-align:center;
+top:0px;
+bottom: 0px;
+height:2.5rem;
+}
+

@@ -1,0 +1,56 @@
+@charset "utf-8";
+.centrado {
+	color:#FFF;
+	font-size:4rem;
+margin:-1px auto;
+padding-top:4rem;
+width:auto;
+overflow:hidden;
+text-align:center;
+padding-bottom:3rem;
+}
+
+.centrado2 {
+padding-top: 100px;
+margin:-1px auto;
+width:auto;
+overflow:hidden;
+text-align:center;
+}
+
+#texto{
+margin:-1px auto;
+width:auto;
+overflow:hidden;
+text-align:center;
+margin-top:3rem;
+color:#fff;
+border-color:#FFF;
+}
+
+#pie{
+
+background-color:#999;
+opacity:0.4;
+font-size:3rem;
+text-align:center;
+position: absolute; 
+width: 100%; 
+bottom: 0px;
+height:4rem;
+}
+#pie a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+body{
+	background-image:url(bluegradient.png);
+}
+.imgind{
+	opacity:1;
+}
+
+	
+	
+

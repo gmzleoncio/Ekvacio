@@ -1,0 +1,88 @@
+/* ----------------------------------
+ * HEADERS: default
+ * ---------------------------------- */
+section[role="region"] > header:first-child {
+  position: relative;
+  z-index: 100;
+  padding: 0;
+  height: 5rem;
+  width:100%;
+  color: #fff;
+  background-color: #000080;
+  border: none;
+}
+
+
+
+section[role="region"] > header:first-child h1 {
+  font-size: 2.5rem;
+  line-height: 5rem;
+  text-align: left;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 1rem 0 3rem;
+  height: 100%;
+  font-weight: lighter;
+}
+
+
+section[role="region"] > header:first-child form {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding: 1rem 1rem 0 0.5rem ;
+  margin-left: 3.5rem;
+}
+
+
+
+section[role="region"] > header:first-child form button[type="reset"] {
+  font-size: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  bottom: 0;
+  width: 3rem;
+  height: auto;
+  margin: 0;
+  display: none;
+  border: none;
+  background: url(clear.png) no-repeat center center / 1.7rem auto;
+}
+
+section[role="region"] > header:first-child input[type="text"]:valid + button[type="reset"] {
+  display: block;
+}
+
+/* Generic set of actions in toolbar */
+section[role="region"] > header:first-child menu[type="toolbar"] {
+  height: 100%;
+  float: right;
+}
+
+section[role="region"] > header:first-child menu[type="toolbar"] a,
+section[role="region"] > header:first-child menu[type="toolbar"] button {
+  -moz-box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: auto;
+  min-width: 5rem;
+  height: 5rem;
+  margin-bottom: 0;
+  padding: 0 1rem;
+  border-radius: 0;
+  line-height: 5rem;
+  background: none;
+  text-align: center;
+  text-shadow: none;
+  z-index: 5;
+}
+
+
+
+
