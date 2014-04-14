@@ -1,15 +1,14 @@
 ﻿{
-    "version": "1.0",
-    "name": "Ekvacio",
-    "description": "Resolución de Sistemas de Ecuaciones",
-    "launch_path": "/splash.html",
-    "icons": {
-        "60":  "/ekvacio60.png",
-        "128": "/ekvacio128.png"
-    },
-    "developer": {
-        "name": "Leoncio Gomez",
-        "url": "https://twitter.com/gomleod"
-    },
-    "default_locale": "es"
-}
+  "version": "1.0",
+  "name": "Ekvacio",
+  "description": "Resolución de Sistemas de Ecuaciones",
+  "launch_path": "host/0B9LpFGCbcszNN2ZvSUhxNFFrbnM/splash.html",
+  "icons": {
+    "60":  "/host/0B9LpFGCbcszNN2ZvSUhxNFFrbnM/ekvacio60.png",
+        "128": "/host/0B9LpFGCbcszNN2ZvSUhxNFFrbnM/ekvacio128.png"
+  },
+  "developer": {
+    "name": "Leoncio Gomez",
+    "url": "https://twitter.com/Weisser_Krieger"
+  },
+  "default_locale": "es"}

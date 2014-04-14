@@ -1,13 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-section[role="region"] header #reveno{
-	background-image:url(back.png);
-	background-color:#03C;
-	height:5rem;
-	width:4rem;
-	margin:0px;
-	}
+
 
 .centrado {
 padding-top:25px;
@@ -43,10 +37,12 @@ display:table;
 }
 
 .title{
-	display:table;
+	display:inline-block;
 	position:relative;
 	float:left;
+	width:40px;
 }
+
 #botones{
 	display:block;
 }
@@ -119,4 +115,16 @@ top:0px;
 bottom: 0px;
 height:2.5rem;
 }
+
+.mol{
+	list-style:circle;
+}
+
+.titulo{
+	color:#000080;
+	border-bottom-style:dashed;
+	border-bottom-color:#000080;
+	border-bottom-width:medium;
+}
+
 

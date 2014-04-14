@@ -2,13 +2,10 @@
 /* CSS Document */
 @font-face {
 	font-family: 'firefoxos';
-	src: url('FiraSansOTRegular.otf') format("opentype");
+	src: url('FiraSansOT-Regular.otf') format("opentype");
 }
  html, body {
 	font-size: 10px;
-	background:
-		url(gradient.png)) repeat top bottom,
-		url(pattern.png)) repeat top bottom;
 }
 
 h1{

@@ -4,7 +4,7 @@
 
 [data-type="list"] {
   font-weight: 400;
-  padding: 0 1.5rem;
+  padding: 0;
 }
 
 [data-type="list"] ul {
@@ -21,7 +21,7 @@
 /* Title divisors */
 [data-type="list"] header {
   border-bottom: 0.1rem solid #000080;
-  padding: 0.5rem 1rem;
+  padding: 0;
   margin: 0;
   font-size: 1.6rem;
   line-height: 1.8rem;

@@ -143,8 +143,8 @@ $(function(){
 			aldoni(3);
 		}
 			
-		document.getElementById("resol7").onclick = function(){
-			komenco(ord);
+		document.getElementById("resolv").onclick = function(){
+			komenco(2);
 		}
 	
 	
