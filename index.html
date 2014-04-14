@@ -46,15 +46,15 @@ $(function() {
 <article>
 <div id="tabs">
 	<ul>
-		<li><a href="#tabs-1"><img src="img/calc.png"></a></li>
-		<li><a href="#tabs-2"><img src="img/alge.png"></a></li>
-		<li><span id="t3"><a href="#tabs-3"><img src="img/tuto.png"></a></span></li>
-        <li><a href="#tabs-4"><img src="img/abou.png"></a></li>
+		<li><a href="#tabs-1"><img src="img/calc.png" alt="Sistema"></a></li>
+		<li><span id="t2"><a href="#tabs-2"><img src="img/alge.png" alt="Algebraico"></a></span></li>
+		<li><span id="t3"><a href="#tabs-3"><img src="img/tuto.png" alt="Tutorial"></a></span></li>
+        <li><a href="#tabs-4"><img src="img/abou.png" alt="Acerca"></a></li>
 	</ul>
 	<div id="tabs-1">
     	<div class="centrado">
         
-        	<p>Indique el número d incógnitas del sistema de ecuaciones a resolver</p>
+        	<p>Indique el número de incógnitas del sistema de ecuaciones a resolver</p>
             <p>
             <input id="spinner" name="value" value="2">
             </p>
@@ -63,60 +63,72 @@ $(function() {
 	   			<ul>
    					<li class="txtinfo">Siguiente</li>
    					<li><a href="7incog.html"><button class="action-icon forward" id="setIncog">Siguiente</button></a></li>
-			  </ul>
+			  	</ul>
 			</div>
        </div>
-        
     </div>
-	<div id="tabs-2" class="scrollable">
-    	
-        <div id="que" class="titulo">¿Qué es Ekvacio?</div>
-		<p>Ekvacio es la palabra en idioma esperanto que significa "Ecuación" y le da el nombre a esta aplicación. </p>
-		<br>
-		<div id="com" class="titulo">¿Cómo Funciona?</div>
-		<p>Para resolver los sistemas de ecuaciones de hasta 6 incógnitas, esta aplicación hace uso de la Regla de Kramer.</p>
-		<br>
-		<div id="use" class="titulo">¿Cómo Usarlo?</div>
-      	<ol class="mol">
-		<li><p>En la pantalla principal seleccione la pestaña <em>Datos</em>. </p></li>
-		<li><p>Indique el número de incógnitas del sistema de ecuaciones que requiera resolver (De 2 a 6) y haga clic en siguiente.</p></li>
-		<li><p>Llene la matriz con los valores correspondientes del sistema.</p></li>
-		<li><p>Haga clic en el botón <em>Resolver</em>.</p></li>
-		<li><p>Aparecerá en pantalla el resultado del sistema de ecuaciones.</p></li>
-		<li><p>Nota: Si el sistema no tiene solución, aparecerá un mensaje de "Error Matemático"</p></li>
-        </ol>
-        <br>
-		<div id="rkram" class="titulo">¿Qué es la Regla de Kramer?</div>
-		<p>La regla de Cramer es un teorema del álgebra lineal que da la solución de un sistema lineal de ecuaciones en términos de determinantes. Recibe este nombre en honor a Gabriel Cramer (1704 - 1752), quien publicó la regla en su Introduction à l'analyse des lignes courbes algébriques de 1750, aunque Colin Maclaurin también publicó el método en su Treatise of Geometry de 1748 (y probablemente sabía del método desde 1729).</p>
-		<br>
+
+	<div id="tabs-2">
+		<div class="centrado">
+    		<p>Indique el grado de la ecuación polinómica a resolver.</p>
+       	<div class="mGrades">
+            <ul>
+                <li><a href="algebraic.html"><div class="grades" id="g1"><img src="img/n2.png" alt="2"></div></a></li>
+                <li><a href="algebraic.html"><div class="grades" id="g2"><img src="img/n3.png" alt="3"></div></a></li>
+            </ul>
+            
+        </div>
+            <br>
+   		</div>	
 	</div>
+
 	<div id="tabs-3" class="scrollable">
-    	<section data-type="list">
-		<div class="centrado"><img src="img/ekvacio128.png" id="logo"></div>
-		<ul>
-			<li>
-				<p><strong>Versión</strong><p>
-				<p>1.0</p>
-			</li>
-			<li>
-				<p><strong>Autor</strong><p>
-				<p>Leoncio Gómez</p>
-			</li>
-			<li>
-				<p><strong>Contacto</strong></p>
-				<p>Twitter: @gomleod</p>
-			</li>
-		</ul>
-		<br>
-		</div>
-	    </section>
-        
-          <div id="tabs-4">
+    	<div id="que" class="titulo">¿Qué es Ekvacio?</div>
+			<p>Ekvacio es la palabra en idioma esperanto que significa "Ecuación" y le da el nombre a esta aplicación. </p>
+			<br>
+		<div id="com" class="titulo">¿Cómo Funciona?</div>
+			<p>Para resolver los sistemas de ecuaciones de hasta 6 incógnitas, esta aplicación hace uso de la Regla de Kramer.</p>
+			<br>
+		<div id="use" class="titulo">¿Cómo Usarlo?</div>
+      		<ol class="mol">
+				<li><p>En la pantalla principal seleccione la pestaña <em>Datos</em>. </p></li>
+				<li><p>Indique el número de incógnitas del sistema de ecuaciones que requiera resolver (De 2 a 6) y haga clic en siguiente.</p></li>
+				<li><p>Llene la matriz con los valores correspondientes del sistema.</p></li>
+				<li><p>Haga clic en el botón <em>Resolver</em>.</p></li>
+				<li><p>Aparecerá en pantalla el resultado del sistema de ecuaciones.</p></li>
+				<li><p>Nota: Si el sistema no tiene solución, aparecerá un mensaje de "Error Matemático"</p></li>
+        	</ol>
+        	<br>
+		<div id="rkram" class="titulo">¿Qué es la Regla de Kramer?</div>
+			<p>La regla de Cramer es un teorema del álgebra lineal que da la solución de un sistema lineal de ecuaciones en términos de determinantes. Recibe este nombre en honor a Gabriel Cramer (1704 - 1752), quien publicó la regla en su Introduction à l'analyse des lignes courbes algébriques de 1750, aunque Colin Maclaurin también publicó el método en su Treatise of Geometry de 1748 (y probablemente sabía del método desde 1729).</p>
+			<br>
     </div>
-	</div>
+
+    <div id="tabs-4" class="scrollable">
+	<section data-type="list">
+		<div class="centrado"><img src="img/ekvacio128.png" id="logo"></div>
+			<ul>
+				<li>
+					<p><strong>Versión</strong><p>
+					<p>1.0</p>
+				</li>
+				<li>
+					<p><strong>Autor</strong><p>
+					<p>Leoncio Gómez</p>
+				</li>
+				<li>
+					<p><strong>Contacto</strong></p>
+					<p>Twitter: @gomleod</p>
+				</li>
+			</ul>
+			<br>
+		</div>
+	</section>
+
+    </div>
+	
     
-  
-</div>
+ </div>
 
 </article>
 

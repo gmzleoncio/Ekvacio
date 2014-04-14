@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
 .centrado {
 padding-top:25px;
 padding-bottom:50px;
@@ -93,6 +91,9 @@ display:table;
 .coef7{
 	font-size:1.5rem;
 }
+.coef3{
+    font-size:1.5rem;
+}
 
 #pie{
 border-color:#0000DF;
@@ -126,6 +127,60 @@ height:2.5rem;
 	border-bottom-color:#000080;
 	border-bottom-width:medium;
 }
+
+.mGrades{
+	text-align:center;
+	
+}
+
+.mGrades ul{
+	width: 100%; 
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.mGrades li {
+	display: inline-block; 
+	background-color:#000080;
+	height: 160px; 
+	line-height: 190px; 
+	font-size:5rem;
+	width: 100px; 
+	border: solid 1px black;
+	border-radius:30px;
+}
+
+.mGrades a{
+	text-decoration:none;
+	outline:none;
+	color:#ffffff;
+}
+
+#factors{
+    padding-top:50px;
+    text-align:center;
+}
+
+#factors input{
+    width:40px;
+}
+
+#factors ul{
+    width: 100%; 
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#factors li{
+    display:inline;
+	font-size:1rem;
+	margin:auto;
+	width:100%;
+}
+
+
+
 
 
 

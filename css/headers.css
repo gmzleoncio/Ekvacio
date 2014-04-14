@@ -33,6 +33,22 @@ section[role="region"] > header:first-child h1 {
   font-weight: lighter;
 }
 
+.appName{
+	  font-size: 2.5rem;
+  line-height: 5rem;
+  text-align: left;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 1rem 0 2rem;
+  width:100px;
+  height: 100%;
+  font-weight: lighter;
+}
+
 section[role="region"] header #reveno{
 	
 	line-height:5rem;
