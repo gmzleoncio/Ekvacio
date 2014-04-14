@@ -1,10 +1,12 @@
 // JavaScript Document
 $(function(){
+		var unknown = Number(sessionStorage.inco) + 1;
 		var matrico=new Array();
 		var ord = 0;
+		aldoni(unknown);
 		
 		function aldoni(a){
-			ord = a;
+			ord = a; 
 			var tablo = '';
 			tablo += '<li class="square">';
 			var koeficientoj = ["X", "Y", "Z", "A", "B", "C", "D"];
@@ -12,7 +14,7 @@ $(function(){
 			for (var i = 0; i < a-1; i++) {
 				tablo+= '<ul>';
 				for (var j = 0; j < a; j++) {
-                	tablo+=  '<input type="number" class="elemento" value="0"><span class="coef7">' + koeficientoj[j] +'</span>';
+                	tablo+=  '<input type="number" class="elemento" value="0"><span class="coef7">' + koeficientoj[j] + '</span>';
 				}
 				tablo+= '</ul>';
 			}
@@ -20,7 +22,7 @@ $(function(){
 	
 			document.getElementById('arang').innerHTML = tablo;
 			document.getElementById('lego').innerHTML = '<h2>' + legos[ord-3] + '</h2>';
-			document.getElementById('resol7').removeAttribute(disable);
+			
 		}
 		
 		function plenigi(ord){
@@ -126,27 +128,21 @@ $(function(){
 			plenigi(a);
 			kalkulo(a);
 		}
-		
-		document.getElementById("i6").onclick = function(){
-			aldoni(7);
-		}
-			document.getElementById("i5").onclick = function(){
-			aldoni(6);
-		}
-			document.getElementById("i4").onclick = function(){
-			aldoni(5);
-		}
-			document.getElementById("i3").onclick = function(){
-			aldoni(4);
-		}
-			document.getElementById("i2").onclick = function(){
-			aldoni(3);
-		}
+		function puraj(){
 			
-		document.getElementById("resolv").onclick = function(){
-			komenco(2);
+			var campos = document.getElementsByClassName('elemento');
+			
+			for (var i = 0; i < ord-1; i++) {
+				for (var j = 0; j < ord; j++) {
+					campos[ord * i + j].value = 0;
+				}
+            }
 		}
-	
-	
 		
+		document.getElementById("resolv").onclick = function(){
+			komenco(unknown);
+		}
+		document.getElementById("clearMatriz").onclick = function(){
+			puraj();
+		}		
 	});

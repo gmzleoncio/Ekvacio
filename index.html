@@ -11,7 +11,8 @@
 <link rel="stylesheet" type="text/css" href="css/fuente.css">
 <link rel="stylesheet" type="text/css" href="css/propra.css" >
 <link rel="stylesheet" type="text/css" href="css/jqueryUI.css" >
-<script type="text/javascript" src="js/zepto.min.js" > </script>
+<link rel="stylesheet" type="text/css" href="css/toolbars.css" >
+<link rel="stylesheet" type="text/css" href="css/action_icons.css" >
 <script type="text/javascript" src="js/touch.js" ></script>
 <script type="text/javascript" src="js/jquery.js" ></script>
 <script type="text/javascript" src="js/jqueryUI.js"></script>
@@ -32,12 +33,6 @@ $(function() {
 	}
 	});
 	
-	 $( "input[type=submit], a, button" )
-	.button()
-	.click(function( event ) {
-	event.preventDefault();
-	});
-	
 });
 </script>
 </head>
@@ -51,21 +46,26 @@ $(function() {
 <article>
 <div id="tabs">
 	<ul>
-		<li><a href="#tabs-1"></a></li>
-		<li><a href="#tabs-2"></a></li>
-		<li><span id="t3"><a href="#tabs-3">Click</a></span></li>
+		<li><a href="#tabs-1"><img src="img/calc.png"></a></li>
+		<li><a href="#tabs-2"><img src="img/alge.png"></a></li>
+		<li><span id="t3"><a href="#tabs-3"><img src="img/tuto.png"></a></span></li>
+        <li><a href="#tabs-4"><img src="img/abou.png"></a></li>
 	</ul>
 	<div id="tabs-1">
     	<div class="centrado">
         
         	<p>Indique el número d incógnitas del sistema de ecuaciones a resolver</p>
             <p>
-            <input id="spinner" name="value">
+            <input id="spinner" name="value" value="2">
             </p>
             <br>
-            <a href="#">Siguiente</a>
-   
-    	</div>
+          	<div role="toolbar">
+	   			<ul>
+   					<li class="txtinfo">Siguiente</li>
+   					<li><a href="7incog.html"><button class="action-icon forward" id="setIncog">Siguiente</button></a></li>
+			  </ul>
+			</div>
+       </div>
         
     </div>
 	<div id="tabs-2" class="scrollable">
@@ -110,7 +110,12 @@ $(function() {
 		<br>
 		</div>
 	    </section>
+        
+          <div id="tabs-4">
+    </div>
 	</div>
+    
+  
 </div>
 
 </article>

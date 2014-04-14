@@ -64,7 +64,7 @@ display:table;
 	font-size:1rem;
 	margin:auto;
 	width:100%;
-	padding-top:50px;
+	padding-top:40px;
 	
 }
 .square li{
@@ -126,5 +126,7 @@ height:2.5rem;
 	border-bottom-color:#000080;
 	border-bottom-width:medium;
 }
+
+
 
 
