@@ -22,6 +22,8 @@ function getGrades(a){
 	sessionStorage.grado = a;
 }
 
+
+
 	$('#t3').on('click',runEffect);
 	$('#t2').on('click',fadingGrades);
 	$('#setIncog').on('click',getIncog);
